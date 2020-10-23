@@ -1,0 +1,41 @@
+{
+  "name": "tiendastrapi-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "latest",
+    "pg": "^7.12.1",
+    "sqlite3": "latest",
+    "strapi": "3.0.0-beta.17.4",
+    "strapi-admin": "3.0.0-beta.17.4",
+    "strapi-hook-bookshelf": "3.0.0-beta.17.4",
+    "strapi-hook-knex": "3.0.0-beta.17.4",
+    "strapi-plugin-content-manager": "3.0.0-beta.17.4",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.17.4",
+    "strapi-plugin-email": "3.0.0-beta.17.4",
+    "strapi-plugin-upload": "3.0.0-beta.17.4",
+    "strapi-plugin-users-permissions": "3.0.0-beta.17.4",
+    "strapi-provider-upload-cloudinary": "^3.0.0-beta.17.4",
+    "strapi-utils": "3.0.0-beta.17.4",
+    "stripe": "^7.13.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "037d0a07-c18b-45ad-82d9-985b9c0874c5"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
